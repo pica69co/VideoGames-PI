@@ -1,0 +1,54 @@
+.buscador {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .barra {
+    display: flex;
+    border: 1px solid white;
+    width: 50%;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 10px 0 0 10px;
+    padding: 5px 30px 5px 10px;
+  }
+  
+  .boton {
+    display: flex;
+    cursor: pointer;
+    width: 70px;
+    height: 35px;
+    justify-content: center;
+    padding: 8px;
+    border: 1px solid #fff;
+    background: rgb(80, 180, 58);
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    border-color: rgb(28, 16, 16);
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+  }
+  .boton:hover {
+    background-color: #034574;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+      
+

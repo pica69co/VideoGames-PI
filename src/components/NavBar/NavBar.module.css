@@ -1,0 +1,131 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 90px 20px 0;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a1a1a80;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  
+  .navMenu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+  }
+  
+  .logoNavLink {
+    font-size: 18px;
+    font-weight: 400;
+    top: 20px;
+    padding: 0 40px;
+    line-height: 50px;
+    text-decoration: none;
+    position: relative;
+    left: 0;
+    width: 30%;
+    height: 90%;
+    transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+    transform-style: preserve-3d;
+    transform: rotateX(-30);
+    transform: translate(-50%, -50%);
+    animation: animate 25s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateX(-30) rotateY(360);
+    }
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+  }
+  .navMenuLink:hover,
+  .navMenuLink_active {
+    background-color: #034574;
+    transition: 0.5s;
+  }
+  .navMenuLink {
+    height: auto;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 0.1px solid #fff;
+  }
+  
+  .navMenuItem {
+    font-size: 12px;
+    margin: 0 10px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+  
+  h3 {
+    color: rgba(255, 255, 0, 0.8);
+  }
+  
+  .blinking {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

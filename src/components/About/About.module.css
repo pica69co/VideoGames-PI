@@ -1,0 +1,271 @@
+.boton {
+  width: 60px;
+  margin-left: 150px;
+  background-color: red;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* custom properties/variables */
+
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-grey: #303841;
+  }
+  
+  /*base reset*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*box sizing and font sizing*/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  html {
+      box-sizing: border-box;
+      font-size: 62.5%;
+      scroll-behavior: smooth;
+  }
+  
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+  /*base styles*/
+  
+  .aboutBody {
+    font-family: "poppins" sans-serif;
+    font-size: 1.8rem; /*18px*/
+  font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+  }
+  
+  h1,
+  h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  .aboutTitle {
+    color: antiquewhite;
+    font-size: 3rem;
+  }
+  
+  p {
+    width: fit-content;
+    padding: 1em;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .navLink {
+      text-decoration: none;
+      color: red;
+      font-weight: bold;
+    }
+  
+ 
+  
+    .navList {
+      margin: 0 1rem;
+    }
+  }
+  
+  .navList {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .navList:hover {
+    background-color: var(--main-blue);
+  }
+  
+  /*welcome section*/
+  .welcomeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+    background-color: #0060;
+    background-image: linear-gradient(62deg, #3a3d40, 0%, #181719, 100%);
+  }
+  .welcomeSection > p {
+    font-size: 5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: red;
+  }
+  
+  .spanGreeting {
+    font-size: 5rem;
+    color: red;
+    font-family: poppins;
+  }
+  
+  /*projects section*/
+  .projectSection {
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: #00005080;
+  }
+  
+  .projectSectionHeader {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+  }
+  
+  @media (max-width: 28.75em) {
+    .projectSectionHeader {
+      font-size: 4rem;
+    }
+  }
+  
+  .projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  @media (max-width: 30.625em) {
+    .projectSection {
+      padding: 6rem 1rem;
+    }
+  .projectGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .projectLink {
+    background: var(--main-grey);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  
+  .code {
+    color: #fff;
+    transition: color 0.3s ease-out;
+  }
+  
+  .projectLink:hover .code {
+    color: #ff7f50;
+  }
+  
+  .projectImage {
+    height: calc(100% -6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /*contacSection*/
+  .contacSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0.2rem;
+    background: var(--main-grey);
+  }
+  
+  .contactSectionHeader > h2 {
+    font-size: 6rem;
+  }
+  
+   @media (max-width: 28.75em) {
+    .contactSectionHeader > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contactSectionHeader > p {
+    font-style: italic;
+  }
+  
+  .contactLinks {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    font-weight: 200;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-top: 2rem;
+    background: var(--main-grey);
+    border-top: 4px solid var(--main-red);
+  }
+  footer > p {
+    margin: 2rem;
+    color: #fff;
+    font-size: 2.5rem;
+  } 
+  
+.IconContainer{
+    display: flex;
+    width: auto;
+    padding-left: 15%;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+.Icon {
+    height: 2rem;
+    margin-right: 2.rem;
+    cursor: pointer;
+}

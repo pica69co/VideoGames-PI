@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 30px;
+    width: fit-content;
+    height: auto;
+  }
+  .container > h3 {
+    font-size: 1rem;
+    color: #fff;
+    background: #1a1a1a80;
+    font-weight: 100;
+  }
