@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cafc884.chunk.css",
+    "main.js": "/static/js/main.87317bf7.chunk.js",
+    "main.js.map": "/static/js/main.87317bf7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
+    "static/js/2.eda82136.chunk.js": "/static/js/2.eda82136.chunk.js",
+    "static/js/2.eda82136.chunk.js.map": "/static/js/2.eda82136.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5cafc884.chunk.css.map": "/static/css/main.5cafc884.chunk.css.map",
+    "static/js/2.eda82136.chunk.js.LICENSE.txt": "/static/js/2.eda82136.chunk.js.LICENSE.txt",
+    "static/media/css.a031633e.png": "/static/media/css.a031633e.png",
+    "static/media/express.04e4743f.png": "/static/media/express.04e4743f.png",
+    "static/media/facebook.a3b518d5.png": "/static/media/facebook.a3b518d5.png",
+    "static/media/VideogameNoEncontrado.module.css": "/static/media/gameover.51de59d8.jpg",
+    "static/media/github2.93e6871e.png": "/static/media/github2.93e6871e.png",
+    "static/media/App.css": "/static/media/landing.12423af6.jpg",
+    "static/media/linkedin.bbe0e3e6.png": "/static/media/linkedin.bbe0e3e6.png",
+    "static/media/node.c580880c.png": "/static/media/node.c580880c.png",
+    "static/media/postgre.f94cfa2e.png": "/static/media/postgre.f94cfa2e.png",
+    "static/media/react.20adfb35.png": "/static/media/react.20adfb35.png",
+    "static/media/videogame.6a3ef65f.png": "/static/media/videogame.6a3ef65f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a06e69b5.js",
+    "static/js/2.eda82136.chunk.js",
+    "static/css/main.5cafc884.chunk.css",
+    "static/js/main.87317bf7.chunk.js"
+  ]
+}
