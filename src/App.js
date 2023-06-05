@@ -6,7 +6,7 @@ import Home from "./components/Home/index";
 import VideogameDetail from "./components/VideogameDetail/index";
 import VideogameCreation from "./components/VideogameCreation/index";
 import About from "../src/components/About/About"
-
+//para algo...
 function App() {
   return (
     <div className="App">
