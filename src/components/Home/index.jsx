@@ -9,7 +9,7 @@ import styles from "./Home.module.css";
 import NavBar from "../NavBar/NavBar";
 import SearchBar from "../SearchBar/index";
 import PagingBox from "../PagingBox/index";
-import FilterBox from "../FilterBox/index";
+//import FilterBox from "../FilterBox/index";
 import OrderBox from "../OrderBox/OrderBox";
 import Footer from "../Footer/index";
 import Loading from "../Loading/index";
