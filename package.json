@@ -32,7 +32,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {"import/no-unresolved": "off"} 
   },
   "browserslist": {
     "production": [

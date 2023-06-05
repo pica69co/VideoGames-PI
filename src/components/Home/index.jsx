@@ -16,8 +16,9 @@ import Loading from "../Loading/index";
 import VideogameNotFinded from "../VideogameNoEncontrado/index";
 
 const Home = (props) => {
+    
   const dispatch = useDispatch();
-  useEffect(() => dispatch(getVideogames()), []);
+  useEffect(() => dispatch(getVideogames()),[]);// eslint-disable-next-line
 
   const videogamesSearched = useSelector((store) => store.gamesSearched);
   const videogamesLoaded = useSelector((store) => store.gamesLoaded);
